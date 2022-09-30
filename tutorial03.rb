@@ -24,9 +24,9 @@ while count <= 3
   
     elsif calc == "%"  
       puts f_num % s_num 
-
-    elsif f_num.is_a? String and s_num.is_a? String
-      puts "put integer in first numbers"
+  
+    elsif f_num.is_a?(String) and s_num.is_a?(String)
+      puts "put integer in first and second numbers"
 
     else 
       puts "invaild operator"
@@ -57,3 +57,5 @@ if result == true
   else
     puts "You choose to stop the calculator"
 end
+
+
