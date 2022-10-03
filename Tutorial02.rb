@@ -8,5 +8,3 @@ elsif age > 18 && age <= 110
 else 
   puts "Invaild input"
 end
-
-
