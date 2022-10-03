@@ -1,5 +1,6 @@
 # choose person or student to add
-puts "Do you want to add Person or Students"
+puts "Do you want to add Person or Student"
+puts "Put p for Person and s for Student"
 choose = gets.chomp() 
 
 # create class for person or student
