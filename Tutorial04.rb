@@ -1,11 +1,9 @@
 puts "amount :"
 amount = gets.chomp().to_i
 
-
 # For the amount of animals you want to put
 if amount > 0 && amount <= 10
   @animals_array = Array.new(amount)
-
   else 
     amount = 10
     @animals_array = Array.new(amount)
@@ -23,14 +21,9 @@ for @i in 1..amount
     @animals_array[@i - 1] = species
   end
   add_animals
-
 end
 
+# filter the animals array to delete duplicate values
 filter_animals = @animals_array.uniq
-
-
+# output animals array
 puts filter_animals.reverse
-
-
-
-
