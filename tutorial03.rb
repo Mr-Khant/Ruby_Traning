@@ -42,13 +42,9 @@ while count <= 3
   count += 1
 end
 
-
 # check to input the final result
 if result == true
   puts "Limit has been reached"
-
   else
     puts "You choose to stop the calculator"
 end
-
-
