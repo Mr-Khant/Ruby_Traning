@@ -36,11 +36,3 @@ if choose == "p"
   else 
     puts "wrong input just put p for person and s for student"
 end
-
-
-
-
-
-
-
-
